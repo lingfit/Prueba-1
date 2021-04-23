@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: beige;
+    background-color:white;
 }
 .logo>img{
     width: 100px;
@@ -18,7 +18,7 @@ body{
 }
 
 .redes, .logo{
-    background-color: darkgray;
+    background-color: black;
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -38,16 +38,13 @@ body{
     justify-content: center;
 }
 
+h5{
+    text-align: center;
+}
+
 .carrusel>img{
     width: 600px;
     height: 500px;
-}
-
-.galeria{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 10px;
 }
 
 h2{
@@ -59,11 +56,26 @@ h2{
 b{
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-top: 5px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
 }
 
 .galeria>img{
     width: 400px;
     height: 300px;
     margin: 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
 }
